@@ -1,0 +1,17 @@
+spring:
+  application:
+    name: spring-cloud-k8s-example
+
+management:
+  endpoint:
+    restart:
+      enabled: true
+  endpoints:
+    web:
+      exposure:
+        include: env
+
+app:
+  config:
+    message: TY Tech 2019
+    feature-enabled: false

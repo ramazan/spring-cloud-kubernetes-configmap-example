@@ -1,0 +1,10 @@
+spring:
+  cloud:
+    kubernetes:
+      config:
+        name: cloud-cm
+        enabled: true
+      reload:
+        enabled: true
+        mode: event
+        strategy: refresh
