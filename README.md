@@ -1,2 +1,2 @@
-# spring-cloud-kubernetes-configmap-example
+# Spring Cloud Kubernetes ConfigMap Example Project.
 Configuration with Spring Cloud Kubernetes Example Project
